@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "sid": "1",
+      "sname": "1",
+      "id": 1
+    },
+    {
+      "sid": "2",
+      "sname": "Abhinav",
+      "fromdate": "2023-04-05T18:30:00.000Z",
+      "todate": "2023-04-25T18:30:00.000Z",
+      "genre": "Adventure",
+      "id": 2
+    },
+    {
+      "sid": "3",
+      "sname": "Ankur",
+      "fromdate": "2023-04-05T18:30:00.000Z",
+      "todate": "2023-04-13T18:30:00.000Z",
+      "genre": "Fantasy",
+      "id": 3
+    },
+    {
+      "sid": "4",
+      "sname": "Vaibhav",
+      "fromdate": "2023-04-06T18:30:00.000Z",
+      "todate": "2023-04-07T18:30:00.000Z",
+      "genre": "Mystery",
+      "id": 4
+    },
+    {
+      "sid": "5",
+      "sname": "Rahul",
+      "fromdate": "2023-04-07T18:30:00.000Z",
+      "todate": "2023-04-10T18:30:00.000Z",
+      "genre": "Sci-Fi",
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ]
+}
