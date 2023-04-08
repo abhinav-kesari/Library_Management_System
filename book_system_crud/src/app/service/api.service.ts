@@ -48,7 +48,7 @@ export class ApiService {
   
      //delete book
      deletebook(id:number){
-      return this.http.delete<any>('http://localhost:3000/post/${id}');
+      return this.http.delete<any>('http://localhost:3000/posts/'+id);
      }
   
      //fetch book by id

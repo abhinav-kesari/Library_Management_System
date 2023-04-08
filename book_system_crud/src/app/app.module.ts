@@ -21,7 +21,7 @@ import { ViewbookComponent } from './viewbook/viewbook.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
-import { UpdatebookComponent } from './updatebook/updatebook.component';
+import { UpdateBookComponent } from './update-book/update-book.component';
 // import { animate, state, style, transition, trigger } from '@angular/animations';
 
 @NgModule({
@@ -29,7 +29,7 @@ import { UpdatebookComponent } from './updatebook/updatebook.component';
     AppComponent,
     BuybookComponent,
     ViewbookComponent,
-    UpdatebookComponent
+    UpdateBookComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +46,7 @@ import { UpdatebookComponent } from './updatebook/updatebook.component';
     MatToolbarModule,
     MatTableModule,
     MatSortModule,
+    MatIconModule,
 
     FormsModule,
     ReactiveFormsModule,
