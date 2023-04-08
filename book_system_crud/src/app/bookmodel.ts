@@ -1,4 +1,5 @@
 export interface bookmodel {
+    
     sid:string;
     sname:string;
     fromdate: string;
@@ -6,5 +7,4 @@ export interface bookmodel {
     bname:string;
     genre:String;
     id:number;
-
 }

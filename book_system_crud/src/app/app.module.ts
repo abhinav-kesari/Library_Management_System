@@ -8,6 +8,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatButtonModule} from '@angular/material/button';
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatTableModule } from "@angular/material/table";
+import { MatSortModule } from "@angular/material/sort";
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -40,6 +43,10 @@ import { UpdatebookComponent } from './updatebook/updatebook.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatButtonModule ,
+    MatToolbarModule,
+    MatTableModule,
+    MatSortModule,
+
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,

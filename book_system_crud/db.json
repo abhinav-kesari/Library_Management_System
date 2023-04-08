@@ -1,13 +1,8 @@
 {
   "posts": [
     {
-      "sid": "1",
-      "sname": "1",
-      "id": 1
-    },
-    {
       "sid": "2",
-      "sname": "Abhinav",
+      "sname": "zinc",
       "fromdate": "2023-04-05T18:30:00.000Z",
       "todate": "2023-04-25T18:30:00.000Z",
       "genre": "Adventure",
@@ -15,7 +10,7 @@
     },
     {
       "sid": "3",
-      "sname": "Ankur",
+      "sname": "Ram",
       "fromdate": "2023-04-05T18:30:00.000Z",
       "todate": "2023-04-13T18:30:00.000Z",
       "genre": "Fantasy",
@@ -23,7 +18,7 @@
     },
     {
       "sid": "4",
-      "sname": "Vaibhav",
+      "sname": "Rocky",
       "fromdate": "2023-04-06T18:30:00.000Z",
       "todate": "2023-04-07T18:30:00.000Z",
       "genre": "Mystery",
@@ -38,7 +33,20 @@
       "id": 5
     },
     {
-      "id": 6
+      "sid": "7",
+      "sname": "Rasitha",
+      "fromdate": "2023-04-25T18:30:00.000Z",
+      "todate": "2023-04-27T18:30:00.000Z",
+      "genre": "Mystery",
+      "id": 7
+    },
+    {
+      "sid": "23",
+      "sname": "Raj",
+      "fromdate": "2023-04-23T18:30:00.000Z",
+      "todate": "2023-04-25T18:30:00.000Z",
+      "genre": "Sci-Fi",
+      "id": 8
     }
   ]
 }
