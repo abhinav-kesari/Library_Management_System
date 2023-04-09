@@ -1,3 +1,10 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "sid": "22",
+      "sname": "Sri Ram1",
+      "genre": "Mystery",
+      "id": 1
+    }
+  ]
 }

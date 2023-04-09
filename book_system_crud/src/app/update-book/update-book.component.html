@@ -1,1 +1,61 @@
 <p>update-book works!</p>
+<mat-card class="example-card">
+    <mat-card-content style="text-align: center; font-weight: bolder"
+      >Update Book</mat-card-content
+    >
+  
+    <form class="example-form">
+      <mat-form-field appearance="outline" class="example-full-width">
+        <mat-label>Student ID</mat-label>
+        <input matInput placeholder="Student ID" disabled  name="sid" [(ngModel)]="book.sid" />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline" class="example-full-width">
+        <mat-label>Student Name</mat-label>
+        <input matInput placeholder="Student Name" name="sname" [(ngModel)]="book.sname"  />
+      </mat-form-field>
+  
+      <mat-form-field appearance="fill" class="date">
+        <mat-label>From Date</mat-label>
+        <input matInput  name="fromdate" [(ngModel)]="book.fromdate" [matDatepicker]="picker1" />
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker1"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+  
+      <mat-form-field appearance="fill" class="date">
+        <mat-label>To Date</mat-label>
+        <input matInput name="todate" [(ngModel)]="book.todate" [matDatepicker]="picker2" />
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker2"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker2></mat-datepicker>
+      </mat-form-field>
+  
+      <mat-form-field appearance="fill">
+        <mat-label>Select</mat-label>
+        <mat-select name="genre" [(ngModel)]="book.genre"  >
+          <mat-option value="Action">Action</mat-option>
+          <mat-option value="Adventure">Adventure</mat-option>
+          <mat-option value="Fantasy">Fantasy</mat-option>
+          <mat-option value="Sci-Fi">Sci-Fi</mat-option>
+          <mat-option value="Mystery">Mystery</mat-option>
+          <mat-option value="Thriller">Thriller</mat-option>
+          <mat-option value="Romance">Romance</mat-option>
+          <mat-option value="Dystopian">Dystopian</mat-option>
+          <mat-option value="Contemporary">Contemporary</mat-option>
+          <mat-option value="Westerns">Westerns</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+    <div class='btn'>
+      <button mat-raised-button color="primary"   (click)="updatebook()">Update</button>
+      <button routerLink="/viewBook" mat-raised-button color="accent">View</button>
+    </div>
+  </mat-card>
+  

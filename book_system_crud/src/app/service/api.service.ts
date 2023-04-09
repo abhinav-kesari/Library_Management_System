@@ -53,12 +53,12 @@ export class ApiService {
   
      //fetch book by id
      fetchbook(id:number){
-      return this.http.get<any>('http://localhost:3000/post/${id}');
+      return this.http.get<any>('http://localhost:3000/posts/'+id);
      }
   
       //update
       updatebook(data:any,id:number){
-        return this.http.put('http://localhost:3000/post/${id}',data);
+        return this.http.put('http://localhost:3000/posts/'+id,data);
        }
 
 }
